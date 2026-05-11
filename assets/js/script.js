@@ -31,8 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const stageCards = document.querySelectorAll('.stages__slider-card');
       const stagesSection = document.querySelector('.stages__slider-wrapper');
 
-      console.log(stageCards)
-
       const stagesObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
