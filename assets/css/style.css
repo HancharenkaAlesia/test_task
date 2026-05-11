@@ -137,6 +137,12 @@ h2 {
   }
 }
 
+@media(width < 21rem) {
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
 h3 {
   font-weight: 600;
   font-size: 1.333rem; /* 24 */
